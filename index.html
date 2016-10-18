@@ -8,9 +8,71 @@
 </head>
 <body>
 
+<form action="action.php">
+        <label for="id1">label</label>
+    <input type="text" id="id1" placeholder="Руслан" value="Руслан">
+    <input type="text" placeholder="Квашук" value="Квашук">
+    <input type="password">
+    <input type="radio" name="iso-code" value="en"> EN
+    <input type="radio" name="iso-code" value="ua"> UA
+    <input type="radio" name="iso-code" value="de"> DE
+    <input type="reset">
+    <input type="submit" value="Send">
+</form>
+
+<form action="action2.php">
+    <input type="checkbox">set something
+    <input type="reset">
+    <input type="submit" value="Send data">
+</form>
+
 <form action="">
+    <select name="name1">
+        <option value="op1">Razor</option>
+        <option value="op2">Crazy</option>
+        <option value="op3">Man</option>
+        <option value="op4">BADMAD</option>
+        <option value="op5" selected>Home</option>
+
+    </select>
+
+</form>
+<form action="">
+    <textarea name="textarea1" cols="30" rows="10" placeholder="Start to type something."></textarea>
+</form>
+
+<form action="">
+    <fieldset style="background-color: green;">
+        <input type="text">
+        <input type="text">
+    </fieldset>
+    <input type="text">
+    <input type="text">
     <input type="text">
     <input type="submit">
+</form>
+
+<form action="">
+    <p>Выберите любимого персонажа:</p>
+    <p><input type="text" list="character">
+    <datalist id="character">
+        <option value="Чебурашка"></option>
+        <option value="Крокодил Гена"></option>
+        <option value="Шапокляк"></option>
+    </datalist></p>
+</form>
+
+<form action="">
+    <input type="date">
+</form>
+
+<form action="">
+    <input type="email" placeholder="Enter you EMAIL please" autofocus required>
+    <input type="submit">
+</form>
+
+<form action="">
+
 </form>
 
 </body>
